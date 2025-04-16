@@ -100,15 +100,3 @@ Buka [http://localhost:3000](http://localhost:3000) di browser untuk melihat has
 - **React Icons / SVG Assets**
 
 ---
-
-## 📝 Lisensi
-
-Proyek ini dibuat untuk keperluan tugas UTS dan tidak digunakan secara komersial. Bebas digunakan untuk pembelajaran.
-
----
-
-## 🙌 Kontribusi
-
-Jika ingin mengembangkan lebih jauh, silakan fork repo ini dan kirimkan pull request!
-
----
