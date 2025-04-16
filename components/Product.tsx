@@ -1,14 +1,14 @@
 import Image from 'next/image';
 
 const products = [
-  { name: 'Syltherine', desc: 'Stylish cafe chair', price: 2500000, original: 3500000, img: '/images/syltherine.jpg', tag: '-30%' },
-  { name: 'Leviosa', desc: 'Stylish cafe chair', price: 2500000, img: '/images/leviosa.jpg' },
-  { name: 'Lolito', desc: 'Luxury big sofa', price: 7000000, original: 14000000, img: '/images/lolito.jpg', tag: '-50%' },
-  { name: 'Respira', desc: 'Outdoor bar table and stool', price: 500000, img: '/images/respira.jpg', tag: 'New' },
-  { name: 'Grifo', desc: 'Night lamp', price: 1500000, img: '/images/grifo.jpg' },
-  { name: 'Muggo', desc: 'Small mug', price: 150000, img: '/images/muggo.jpg', tag: 'New' },
-  { name: 'Pingky', desc: 'Cute bed set', price: 7000000, original: 14000000, img: '/images/pingky.jpg', tag: '-50%' },
-  { name: 'Potty', desc: 'Minimalist flower pot', price: 500000, img: '/images/potty.jpg', tag: 'New' },
+  { name: 'Syltherine', desc: 'Stylish cafe chair', price: 2500000, original: 3500000, img: '/product/syltherine.jpg', tag: '-30%' },
+  { name: 'Leviosa', desc: 'Stylish cafe chair', price: 2500000, img: '/product/leviosa.jpg' },
+  { name: 'Lolito', desc: 'Luxury big sofa', price: 7000000, original: 14000000, img: '/product/lolito.jpg', tag: '-50%' },
+  { name: 'Respira', desc: 'Outdoor bar table and stool', price: 500000, img: '/product/respira.jpg', tag: 'New' },
+  { name: 'Grifo', desc: 'Night lamp', price: 1500000, img: '/product/grifo.jpg' },
+  { name: 'Muggo', desc: 'Small mug', price: 150000, img: '/product/muggo.png', tag: 'New' },
+  { name: 'Pingky', desc: 'Cute bed set', price: 7000000, original: 14000000, img: '/product/pingky.png', tag: '-50%' },
+  { name: 'Potty', desc: 'Minimalist flower pot', price: 500000, img: '/product/potty.png', tag: 'New' },
 ];
 
 const formatPrice = (n: number) =>
@@ -19,7 +19,7 @@ const badgeColor = (tag?: string) =>
 
 export default function ProductSection() {
   return (
-    <section className="py-16 px-4 bg-white text-center">
+    <section className="py-16 px-4 bg-white text-center font-poppins">
       <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-12">Our Products</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
@@ -65,7 +65,7 @@ export default function ProductSection() {
 
       {/* Tombol Show More */}
       <div className="mt-12">
-        <button className="border border-gray-800 text-gray-800 px-6 py-2 rounded hover:bg-gray-800 hover:text-white transition">
+        <button className="border border-[#B88E2F] text-[#B88E2F] px-6 py-2 rounded hover:bg-gray-800 hover:text-white transition">
           Show More
         </button>
       </div>

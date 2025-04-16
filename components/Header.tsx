@@ -7,7 +7,7 @@ export default function Header() {
     <header className="flex items-center justify-between px-8 py-4 border-b bg-white shadow-sm font-poppins">
       {/* Logo */}
       <div className="flex items-center space-x-2">
-        <Image src="/logo.png" alt="Furniro Logo" width={30} height={30} />
+        <Image src="/header/Logo.png" alt="Furniro Logo" width={30} height={30} />
         <span className="text-xl font-bold text-gray-800">Furniro</span>
       </div>
 

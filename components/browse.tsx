@@ -5,14 +5,14 @@ export default function BrowseRange() {
 
   const categories = categoryNames.map((name) => ({
     title: name,
-    img: `/images/${name.toLowerCase()}.jpg`,
+    img: `/browserange/${name.toLowerCase()}.jpg`,
     alt: `${name} Room`,
   }));
 
   return (
-    <section className="py-16 px-4 bg-white text-center">
+    <section className="py-16 px-4 bg-white text-center font-poppins">
       <h2 className="text-2xl md:text-3xl font-bold text-gray-800">Browse The Range</h2>
-      <p className="text-gray-500 mt-2 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p className="text-gray-500 mt-2 mb-10">Explore a variety of styles made for every corner of your home.</p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {categories.map((category) => (

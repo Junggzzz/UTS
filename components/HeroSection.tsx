@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section className="relative w-full h-screen font-poppins overflow-hidden">
       {/* Background image */}
       <Image
-        src="/2.jpg"
+        src="/hero/2.jpg"
         alt="Interior"
         fill
         className="object-cover object-center"
@@ -23,7 +23,7 @@ export default function HeroSection() {
             New Collection
           </h2>
           <p className="text-sm md:text-base text-gray-800 mb-6 max-w-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+           Timeless pieces designed to elevate your everyday living.
           </p>
           <button className="bg-[#B88E2F] text-white px-6 py-3 text-sm font-bold uppercase shadow hover:bg-[#a07822] transition-all">
             Buy Now
