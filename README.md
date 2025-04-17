@@ -71,14 +71,13 @@ Buka [http://localhost:3000](http://localhost:3000) di browser untuk melihat has
 
 ## 🧠 Komponen Penting
 
-- Nama Komponen:	                     Fungsi:
-- Header.tsx	                         Navigasi utama dan logo
-- HeroSection.tsx	                     Section utama dengan CTA
-- browse.tsx	                         Menampilkan kategori ruangan: Dining, Living, Bedroom
-- Product.tsx	                         Menampilkan produk-produk terbaru
-- gallery.tsx	                         Galeri ruangan tertata rapi
-- footer.tsx	                         Footer utama dengan navigasi dan form newsletter
-- footercopyright.tsx	                 Hak cipta di bagian bawah
+- Header.tsx	                         :Navigasi utama dan logo
+- HeroSection.tsx	                     :Section utama dengan CTA
+- browse.tsx	                         :Menampilkan kategori ruangan: Dining, Living, Bedroom
+- Product.tsx	                         :Menampilkan produk-produk terbaru
+- gallery.tsx	                         :Galeri ruangan tertata rapi
+- footer.tsx	                         :Footer utama dengan navigasi dan form newsletter
+- footercopyright.tsx	                 :Hak cipta di bagian bawah
 
 ---
 
